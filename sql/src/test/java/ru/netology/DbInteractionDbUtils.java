@@ -44,12 +44,12 @@ public class DbInteractionDbUtils {
                         "jdbc:mysql://localhost:3306/app", "app", "pass"
                 );
         ) {
-          var count = runner.query(conn, countSQL, new ScalarHandler<>());
-          System.out.println(count);
-          var first = runner.query(conn, usersSQL, new BeanHandler<>(User.class));
-          System.out.println(first);
-          var all = runner.query(conn, usersSQL, new BeanListHandler<>(User.class));
-          System.out.println(all);
+            var count = runner.query(conn, countSQL, new ScalarHandler<>());
+            System.out.println(count);
+            var first = runner.query(conn, usersSQL, new BeanHandler<>(User.class));
+            System.out.println(first);
+            var all = runner.query(conn, usersSQL, new BeanListHandler<>(User.class));
+            System.out.println(all);
         }
     }
 }
