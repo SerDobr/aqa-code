@@ -1,4 +1,6 @@
 # aqa-code
+[![Build status](https://ci.appveyor.com/api/projects/status/owthedpl5q7ycrvm/branch/master?svg=true)](https://ci.appveyor.com/project/SerDobr/aqa-code/branch/master)
+
 Код с лекций Автоматизация тестирования
 
 1. [x] [Основы автоматизации](basics/)
